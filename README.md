@@ -6,6 +6,7 @@
 - [ ] [判断元素可见](https://mp.weixin.qq.com/s/4ZvBfOiN1o1aXuxoTQpqYQ)
 - [ ] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
+- [ ] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
 
 ## 网络
 
