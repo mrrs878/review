@@ -1,0 +1,20 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "- [x] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) \r - [ ] [判断元素可见](https://mp.weixin.qq.com/s/4ZvBfOiN1o1aXuxoTQpqYQ)\r - [ ] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)\r - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)\r - [x] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)\r - [ ] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrrs878/review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrrs878/review/issues"
+  },
+  "homepage": "https://github.com/mrrs878/review#readme"
+}
