@@ -2,11 +2,12 @@
 
 ## JavaScript
 
-- [ ] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) 
+- [x] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) 
 - [ ] [判断元素可见](https://mp.weixin.qq.com/s/4ZvBfOiN1o1aXuxoTQpqYQ)
 - [ ] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
-- [ ] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
+- [x] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
+- [ ] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
 
 ## 网络
 
