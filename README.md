@@ -13,6 +13,7 @@
 
  - [ ] [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
  - [ ] [HTTPS加解密](https://www.jianshu.com/p/e30a8c4fa329)
+ - [ ] [What Is OSI Model?](https://www.networkingsphere.com/2019/07/what-is-osi-model.html)
 
 ## React.js
 
