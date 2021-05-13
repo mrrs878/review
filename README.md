@@ -8,6 +8,8 @@
 -->
 # 2021复习计划
 
+[![Node.js CI](https://github.com/mrrs878/review/actions/workflows/node.js.yml/badge.svg)](https://github.com/mrrs878/review/actions/workflows/node.js.yml)
+
 ## JavaScript
 
 - [x] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) 
