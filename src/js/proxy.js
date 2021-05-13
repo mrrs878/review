@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-11 22:30:56
- * @LastEditTime: 2021-05-11 23:05:46
+ * @LastEditTime: 2021-05-13 13:35:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\src\js\proxy.js
@@ -18,7 +18,7 @@ const trapInvariant = new Proxy(Object.defineProperty({}, 'name', {
 });
 
 const revocableProxy = Proxy.revocable({
-  name: 'tom'
+  name: 'tom',
 }, {
   get: Reflect.get,
   set: Reflect.set,
@@ -28,14 +28,18 @@ const hiddenProps = new Proxy({
   name: 'tom',
   age: 23,
 }, {
-  get(target, prop) {
+  get(...args) {
+    const [, prop] = args;
     if (prop === 'age') return undefined;
-    return Reflect.get(...arguments);
+    return Reflect.get(...args);
   },
-  has(target, prop) {
+  has(...args) {
+    const [, prop] = args;
     if (prop === 'age') return false;
-    return Reflect.has(...arguments);
-  }
-})
+    return Reflect.has(...args);
+  },
+});
 
-export { emptyTarget, emptyProxy, trapInvariant, revocableProxy, hiddenProps };
+export {
+  emptyTarget, emptyProxy, trapInvariant, revocableProxy, hiddenProps,
+};

@@ -1,7 +1,7 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-02-23 11:22:06
- * @LastEditTime: 2021-05-11 19:18:52
+ * @LastEditTime: 2021-05-13 10:25:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /dashboard_template/.eslintrc.js
@@ -22,5 +22,7 @@ module.exports = {
   },
   env: {
     'jest/globals': true,
+    browser: true,
+    node: true,
   },
 };
