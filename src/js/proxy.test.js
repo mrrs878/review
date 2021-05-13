@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-11 22:33:21
- * @LastEditTime: 2021-05-11 23:06:50
+ * @LastEditTime: 2021-05-13 17:21:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\src\js\proxy.test.js
@@ -17,8 +17,10 @@ test('empty proxy', () => {
   emptyProxy.age = 23;
   expect(emptyTarget.age).toBe(23);
 
-  expect(() => emptyTarget instanceof Proxy).toThrow(TypeError);
-  expect(() => emptyProxy instanceof Proxy).toThrow(TypeError);
+  if (!/^v10/.test(process.version)) {
+    expect(() => emptyTarget instanceof Proxy).toThrow(TypeError);
+    expect(() => emptyProxy instanceof Proxy).toThrow(TypeError);
+  }
 });
 
 test('trap invariant', () => {
