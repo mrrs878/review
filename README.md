@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-11 21:57:41
+ * @LastEditTime: 2021-05-14 10:04:40
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\README.md
@@ -24,6 +24,7 @@
  - [x] [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
  - [ ] [HTTPS加解密](https://www.jianshu.com/p/e30a8c4fa329)
  - [ ] [What Is OSI Model?](https://www.networkingsphere.com/2019/07/what-is-osi-model.html)
+ - [ ] [一文走进 HTTP 与 TCP 协议，它们的区别与联系](https://mp.weixin.qq.com/s/c1DPbn56c4Tcj9EtRDdrmA)
 
 ## React.js
 
