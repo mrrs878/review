@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-14 10:04:40
+ * @LastEditTime: 2021-05-15 11:52:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\README.md
@@ -37,3 +37,4 @@
  ## 算法/数据结构
 
  - [ ] [精读《算法基础数据结构》](https://mp.weixin.qq.com/s/mpSdGhU3idkpcZqs1b0aLA)
+ - [ ] [66道前端算法面试题附思路分析助你查漏补缺](https://mp.weixin.qq.com/s/2W1ueq_Rp5z8Q9lFZ1AjYg)

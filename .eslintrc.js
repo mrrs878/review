@@ -1,7 +1,7 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-02-23 11:22:06
- * @LastEditTime: 2021-05-13 10:25:48
+ * @LastEditTime: 2021-05-15 11:32:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /dashboard_template/.eslintrc.js
@@ -19,6 +19,7 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'func-names': 0,
+    'no-underscore-dangle': ['error', { allow: ['_denounce', '_throttle'] }],
   },
   env: {
     'jest/globals': true,
