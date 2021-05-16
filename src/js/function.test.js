@@ -1,17 +1,17 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-15 22:38:24
- * @LastEditTime: 2021-05-16 10:18:12
+ * @LastEditTime: 2021-05-16 21:01:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\src\js\function.test.js
  */
 import {
-  fn1, fn2, fn3, fn4, obj,
+  fn1, fn2, fn3, fn4, obj, factorial, factorialPerform, fibPerform,
 } from './function';
 
 describe('function[name]', () => {
-  test('normal function', () => {
+  test('(normal function)[name]', () => {
     expect(fn1.name).toEqual('fn1');
   });
 
@@ -53,5 +53,14 @@ describe('function[name]', () => {
     // eslint-disable-next-line no-unused-vars
     const user = new User();
     expect(console.log).toBeCalledWith(successMessage);
+  });
+
+  test('arguments.callee', () => {
+    expect(factorial(3)).toEqual(6);
+  });
+
+  test('tail call', () => {
+    expect(factorialPerform(5)).toEqual(120);
+    expect(fibPerform(6)).toEqual(8);
   });
 });
