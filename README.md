@@ -1,7 +1,7 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-15 11:52:56
+ * @LastEditTime: 2021-05-17 16:13:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\README.md
@@ -38,3 +38,7 @@
 
  - [ ] [精读《算法基础数据结构》](https://mp.weixin.qq.com/s/mpSdGhU3idkpcZqs1b0aLA)
  - [ ] [66道前端算法面试题附思路分析助你查漏补缺](https://mp.weixin.qq.com/s/2W1ueq_Rp5z8Q9lFZ1AjYg)
+
+ ## 前端架构&软实力
+
+ - [ ] [保姆级 Git 入门教程，10000 字详解](https://mp.weixin.qq.com/s/B8IKLdRX7g5Euu4oIIrXjg)
