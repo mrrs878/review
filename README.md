@@ -1,7 +1,7 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-17 16:13:56
+ * @LastEditTime: 2021-05-17 23:29:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\README.md
@@ -17,14 +17,14 @@
 - [ ] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
 - [x] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
-- [ ] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
+- [x] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
 
 ## 网络
 
  - [x] [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
  - [ ] [HTTPS加解密](https://www.jianshu.com/p/e30a8c4fa329)
  - [ ] [What Is OSI Model?](https://www.networkingsphere.com/2019/07/what-is-osi-model.html)
- - [ ] [一文走进 HTTP 与 TCP 协议，它们的区别与联系](https://mp.weixin.qq.com/s/c1DPbn56c4Tcj9EtRDdrmA)
+ - [x] [一文走进 HTTP 与 TCP 协议，它们的区别与联系](https://mp.weixin.qq.com/s/c1DPbn56c4Tcj9EtRDdrmA)
 
 ## React.js
 
@@ -32,7 +32,7 @@
 
 ## webpack
 
- - [ ] [webpack 中最易混淆的 5 个知识点](https://mp.weixin.qq.com/s/To_p4eYJx_dkJr1ApcR4jA)
+ - [x] [webpack 中最易混淆的 5 个知识点](https://mp.weixin.qq.com/s/To_p4eYJx_dkJr1ApcR4jA)
 
  ## 算法/数据结构
 
@@ -42,3 +42,5 @@
  ## 前端架构&软实力
 
  - [ ] [保姆级 Git 入门教程，10000 字详解](https://mp.weixin.qq.com/s/B8IKLdRX7g5Euu4oIIrXjg)
+
+ - [x] [10个你可能没用过，但很强大的Web API](https://mp.weixin.qq.com/s/_Hufto3frIqk9m9I4Ty4Hg)
