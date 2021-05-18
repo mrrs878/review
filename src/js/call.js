@@ -1,7 +1,7 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-14 12:33:18
- * @LastEditTime: 2021-05-14 13:30:04
+ * @LastEditTime: 2021-05-18 10:09:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /review/src/js/call.js
@@ -29,4 +29,16 @@ function myApply(context = window, args = []) {
   return result;
 }
 
-export { myApply, myCall };
+function myBind(context = window, ...args) {
+  if (typeof this !== 'function') {
+    throw new TypeError();
+  }
+
+  const That = this;
+  return function F(...args2) {
+    if (new.target) return new That(...args, ...args2);
+    return That.call(context, ...args, ...args2);
+  };
+}
+
+export { myApply, myCall, myBind };
