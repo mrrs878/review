@@ -1,10 +1,10 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-13 14:26:09
- * @LastEditTime: 2021-05-13 14:29:53
+ * @LastEditTime: 2021-05-18 18:10:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /review/src/js/myInstanceof.test.js
+ * @FilePath: /review/src/js/instanceof.test.js
  */
 import myInstanceof from './instanceof';
 
