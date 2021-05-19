@@ -46,3 +46,5 @@
  - [ ] [保姆级 Git 入门教程，10000 字详解](https://mp.weixin.qq.com/s/B8IKLdRX7g5Euu4oIIrXjg)
 
  - [x] [10个你可能没用过，但很强大的Web API](https://mp.weixin.qq.com/s/_Hufto3frIqk9m9I4Ty4Hg)
+ 
+ - [x] [面试官：你了解过移动端适配吗？](https://juejin.cn/post/6844903631993454600)
