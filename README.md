@@ -19,6 +19,10 @@
 - [x] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
 - [x] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
 
+## CSS
+
+- [ ] [如何用一行 CSS 实现 10 种现代布局？](https://mp.weixin.qq.com/s/zb6FW6sbAin2MYGeXjNPwQ)
+
 ## 网络
 
  - [x] [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
