@@ -1,7 +1,7 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-19 11:05:30
+ * @LastEditTime: 2021-05-20 11:11:59
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \review\README.md
@@ -48,7 +48,8 @@
  ## 前端架构&软实力
 
  - [ ] [保姆级 Git 入门教程，10000 字详解](https://mp.weixin.qq.com/s/B8IKLdRX7g5Euu4oIIrXjg)
-
  - [x] [10个你可能没用过，但很强大的Web API](https://mp.weixin.qq.com/s/_Hufto3frIqk9m9I4Ty4Hg)
- 
  - [x] [面试官：你了解过移动端适配吗？](https://juejin.cn/post/6844903631993454600)
+ - [x] [CDN原理](https://juejin.cn/post/6844903906296725518)
+ - [ ] [前端:从状态管理到有限状态机的思考](https://mp.weixin.qq.com/s/uQ6YFaFPUkaVkS8Y_F865w)
+
