@@ -61,4 +61,5 @@
 - [x] [CDN原理](https://juejin.cn/post/6844903906296725518)
 - [x] [前端:从状态管理到有限状态机的思考](https://mp.weixin.qq.com/s/uQ6YFaFPUkaVkS8Y_F865w)
 - [x] [状态管理新思路：有限状态机在前端的应用](https://zhuanlan.zhihu.com/p/364347035)
+- [ ] [一文搞懂单点登录三种情况的实现方式](https://mp.weixin.qq.com/s/vKjOD2xRZmF5EL-p9ppjbA)
 
