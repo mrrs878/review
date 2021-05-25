@@ -33,7 +33,7 @@
 - [ ] [What Is OSI Model?](https://www.networkingsphere.com/2019/07/what-is-osi-model.html)
 - [x] [一文走进 HTTP 与 TCP 协议，它们的区别与联系](https://mp.weixin.qq.com/s/c1DPbn56c4Tcj9EtRDdrmA)
 - [x] [了解 HTTP/1.x 的 keep-alive 吗？它与 HTTP/2 多路复用的区别是什么？](https://mp.weixin.qq.com/s/194SJUQz-mZBtg-kLd9fhA)
-- [ ] [彻底搞懂HTTP知识的面试题（1.8万字）](https://mp.weixin.qq.com/s/dESEl1qYKPMYqNVOWYfUDA)
+- [x] [彻底搞懂HTTP知识的面试题（1.8万字）](https://mp.weixin.qq.com/s/dESEl1qYKPMYqNVOWYfUDA)
 
 ## 浏览器
 
