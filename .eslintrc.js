@@ -1,7 +1,7 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-02-23 11:22:06
- * @LastEditTime: 2021-05-27 14:58:31
+ * @LastEditTime: 2021-05-27 14:59:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /dashboard_template/.eslintrc.js
@@ -13,7 +13,7 @@ module.exports = {
     parser: 'babel-eslint',
     sourceType: 'module',
     allowImportExportEverywhere: true,
-    ecmaVersion: 'esnext',
+    ecmaVersion: 2021,
   },
   rules: {
     'linebreak-style': ['off', 'window'],
