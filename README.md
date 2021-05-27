@@ -1,10 +1,10 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-26 18:19:26
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-05-27 10:21:41
+ * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
- * @FilePath: \review\README.md
+ * @FilePath: /review/README.md
 -->
 # 2021复习计划
 
@@ -18,9 +18,10 @@
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
 - [x] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
 - [x] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
-- [ ] [由浅入深，66条JavaScript面试知识点](https://juejin.cn/post/6844904200917221389)
+- [x] [由浅入深，66条JavaScript面试知识点](https://juejin.cn/post/6844904200917221389)
 - [ ] [(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
 - [ ] [字节跳动最爱考的前端面试题：JavaScript 基础](https://juejin.cn/post/6934500357091360781)
+- [x] [如何取消请求的发送](https://github.com/shfshanyue/Daily-Question/issues/502)
 
 ## CSS
 

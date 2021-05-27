@@ -1,8 +1,8 @@
 /*
  * @Date: 2021-05-26 10:31:40
- * @Author: lihang.gw@heyqu.net
- * @LastEditors: lihang.gw@heyqu.net
- * @LastEditTime: 2021-05-26 12:18:58
+ * @Author: mrrs878@foxmail.com
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-05-27 14:57:35
  * @FilePath: /review/src/js/ajax.test.js
  */
 import express from 'express';
@@ -27,11 +27,13 @@ describe('ajax', () => {
   let server;
 
   beforeAll(() => {
-    server = app.listen(3004);
+    // server = app.listen(3004);
   });
   afterAll(() => {
-    server.close();
+    server?.close();
   });
+
+  test.only('blank', () => expect(1).toEqual(1));
   test('get', async () => {
     app.get('/get', (req, res) => {
       res.setHeader('Access-Control-Allow-Origin', '*');

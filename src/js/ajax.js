@@ -1,7 +1,7 @@
 /*
  * @Date: 2021-05-26 10:22:05
  * @Author: mrrs878@foxmail.com
- * @LastEditors: lihang.gw@heyqu.net
+ * @LastEditors: mrrs878@foxmail.com
  * @LastEditTime: 2021-05-26 12:13:29
  * @FilePath: /review/src/js/ajax.js
  */
