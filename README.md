@@ -14,7 +14,7 @@
 
 - [x] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) 
 - [x] [判断元素可见](https://mp.weixin.qq.com/s/4ZvBfOiN1o1aXuxoTQpqYQ)
-- [ ] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
+- [x] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
 - [x] [对象原型](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes)
 - [x] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
@@ -22,6 +22,7 @@
 - [ ] [(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
 - [ ] [字节跳动最爱考的前端面试题：JavaScript 基础](https://juejin.cn/post/6934500357091360781)
 - [x] [如何取消请求的发送](https://github.com/shfshanyue/Daily-Question/issues/502)
+- [ ] [使用 axios 拦截器解决「 前端并发冲突 」 问题](https://mp.weixin.qq.com/s/ehNvVfey1zqG6L4WY0GHRQ)
 
 ## CSS
 
