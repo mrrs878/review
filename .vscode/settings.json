@@ -3,5 +3,12 @@
     "commitlint",
     "linebreak",
     "xstate"
-  ]
+  ],
+  "fileheader.customMade": {
+    "Date": "Do not edit",
+    "Author": "mrrs878@foxmail.com",
+    "LastEditors": "mrrs878@foxmail.com",
+    "LastEditTime": "Do not edit",
+    "FilePath": "Do not edit"
+  }
 }

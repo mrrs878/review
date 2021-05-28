@@ -1,8 +1,8 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-27 15:00:40
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-05-28 16:39:41
+ * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
  * @FilePath: /review/README.md
 -->
@@ -13,6 +13,7 @@
 ## JavaScript
 
 - [x] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) 
+- [x] [JS | 执行调度过程](https://hondrytravis.github.io/docs/typescript/javascript_workflow) 
 - [x] [判断元素可见](https://mp.weixin.qq.com/s/4ZvBfOiN1o1aXuxoTQpqYQ)
 - [x] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
