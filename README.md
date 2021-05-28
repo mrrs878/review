@@ -22,7 +22,7 @@
 - [ ] [(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
 - [ ] [字节跳动最爱考的前端面试题：JavaScript 基础](https://juejin.cn/post/6934500357091360781)
 - [x] [如何取消请求的发送](https://github.com/shfshanyue/Daily-Question/issues/502)
-- [ ] [使用 axios 拦截器解决「 前端并发冲突 」 问题](https://mp.weixin.qq.com/s/ehNvVfey1zqG6L4WY0GHRQ)
+- [x] [使用 axios 拦截器解决「 前端并发冲突 」 问题](https://mp.weixin.qq.com/s/ehNvVfey1zqG6L4WY0GHRQ)
 
 ## CSS
 
