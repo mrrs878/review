@@ -65,4 +65,5 @@
 - [x] [前端:从状态管理到有限状态机的思考](https://mp.weixin.qq.com/s/uQ6YFaFPUkaVkS8Y_F865w)
 - [x] [状态管理新思路：有限状态机在前端的应用](https://zhuanlan.zhihu.com/p/364347035)
 - [x] [一文搞懂单点登录三种情况的实现方式](https://mp.weixin.qq.com/s/vKjOD2xRZmF5EL-p9ppjbA)
+- [ ] [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html) 
 
