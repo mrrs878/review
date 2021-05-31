@@ -23,7 +23,7 @@
 - [ ] [(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
 - [ ] [字节跳动最爱考的前端面试题：JavaScript 基础](https://juejin.cn/post/6934500357091360781)
 - [x] [如何取消请求的发送](https://github.com/shfshanyue/Daily-Question/issues/502)
-- [ ] [使用 axios 拦截器解决「 前端并发冲突 」 问题](https://mp.weixin.qq.com/s/ehNvVfey1zqG6L4WY0GHRQ)
+- [x] [使用 axios 拦截器解决「 前端并发冲突 」 问题](https://mp.weixin.qq.com/s/ehNvVfey1zqG6L4WY0GHRQ)
 
 ## CSS
 
@@ -47,6 +47,7 @@
 ## React.js
 
 - [ ] [React全部api解读](https://juejin.cn/post/6950063294270930980)
+- [ ] [React技术揭秘](https://react.iamkasong.com/)
 
 ## webpack
 
@@ -66,4 +67,5 @@
 - [x] [前端:从状态管理到有限状态机的思考](https://mp.weixin.qq.com/s/uQ6YFaFPUkaVkS8Y_F865w)
 - [x] [状态管理新思路：有限状态机在前端的应用](https://zhuanlan.zhihu.com/p/364347035)
 - [x] [一文搞懂单点登录三种情况的实现方式](https://mp.weixin.qq.com/s/vKjOD2xRZmF5EL-p9ppjbA)
+- [ ] [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html) 
 
