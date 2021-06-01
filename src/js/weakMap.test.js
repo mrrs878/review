@@ -2,7 +2,7 @@
  * @Date: 2021-05-31 18:31:10
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-05-31 18:56:05
+ * @LastEditTime: 2021-06-01 19:34:51
  * @FilePath: /review/src/js/weakMap.test.js
  */
 describe('WeakMap', () => {
@@ -10,7 +10,7 @@ describe('WeakMap', () => {
     const used = process.memoryUsage().heapUsed;
     return Math.round((used / 1024 / 1024) * 100) / 100;
   }
-  test('map', () => {
+  test.skip('map', () => {
     global.gc();
     const map = new Map();
     let tom = new Array(5 * 1024 * 1024);
