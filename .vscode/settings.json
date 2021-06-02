@@ -1,7 +1,10 @@
 {
   "cSpell.words": [
     "commitlint",
+    "esbuild",
     "linebreak",
+    "noninteractive",
+    "outfile",
     "xstate"
   ],
   "fileheader.customMade": {

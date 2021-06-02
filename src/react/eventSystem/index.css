@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.app {
+  height: 100vh;
+}
+
+.modal-c {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+}

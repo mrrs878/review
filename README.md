@@ -1,7 +1,7 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-05-28 16:39:41
+ * @LastEditTime: 2021-06-02 16:27:42
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
  * @FilePath: /review/README.md
@@ -48,6 +48,7 @@
 
 - [ ] [React全部api解读](https://juejin.cn/post/6950063294270930980)
 - [ ] [React技术揭秘](https://react.iamkasong.com/)
+- [ ] [「react进阶」一文吃透react事件系统原理](https://juejin.cn/post/6955636911214067720)
 
 ## webpack
 
