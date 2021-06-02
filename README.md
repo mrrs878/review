@@ -47,12 +47,14 @@
 ## React.js
 
 - [ ] [React全部api解读](https://juejin.cn/post/6950063294270930980)
-- [ ] [React技术揭秘](https://react.iamkasong.com/)
+- [x] [React技术揭秘](https://react.iamkasong.com/)
 - [ ] [「react进阶」一文吃透react事件系统原理](https://juejin.cn/post/6955636911214067720)
+- [x] [深入理解React：懒加载（lazy）实现原理](https://www.cnblogs.com/forcheng/p/13132582.html)
 
 ## webpack
 
 - [x] [webpack 中最易混淆的 5 个知识点](https://mp.weixin.qq.com/s/To_p4eYJx_dkJr1ApcR4jA)
+- [x] [小红书面试官：介绍一下 tree shaking 及其工作原理](https://segmentfault.com/a/1190000038962700) 
 
  ## 算法/数据结构
 
