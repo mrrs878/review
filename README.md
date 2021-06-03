@@ -1,10 +1,10 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-06-02 16:27:42
+ * @LastEditTime: 2021-06-03 23:18:38
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
- * @FilePath: /review/README.md
+ * @FilePath: \review\README.md
 -->
 # 2021复习计划
 
@@ -29,6 +29,7 @@
 
 - [x] [如何用一行 CSS 实现 10 种现代布局？](https://mp.weixin.qq.com/s/zb6FW6sbAin2MYGeXjNPwQ)
 - [x] [BFC是什么？BFC有什么用？看完全明白](https://www.cnblogs.com/qs-cnblogs/p/12349887.html) 
+- [x] [你不知道的 flex-shrink 计算规则](https://www.cnblogs.com/liyan-web/p/11217330.html)
 
 ## 网络
 
