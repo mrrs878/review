@@ -1,10 +1,10 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-06-03 23:18:38
+ * @LastEditTime: 2021-06-04 13:10:07
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
- * @FilePath: \review\README.md
+ * @FilePath: /review/README.md
 -->
 # 2021复习计划
 
@@ -56,6 +56,8 @@
 
 - [x] [webpack 中最易混淆的 5 个知识点](https://mp.weixin.qq.com/s/To_p4eYJx_dkJr1ApcR4jA)
 - [x] [小红书面试官：介绍一下 tree shaking 及其工作原理](https://segmentfault.com/a/1190000038962700) 
+- [x] [[万字总结] 一文吃透 Webpack 核心原理](https://xie.infoq.cn/article/ddca4caa394241447fa0aa3c0)
+- [x] [webpack开发、使用及优化总结](https://slbyml.github.io/QA/webpack.html)
 
  ## 算法/数据结构
 
