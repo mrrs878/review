@@ -2,7 +2,7 @@
  * @Date: 2021-06-05 23:16:17
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-06 21:51:40
+ * @LastEditTime: 2021-06-06 22:34:11
  * @FilePath: \review\src\algorithm\list.js
  */
 class ListNode {
@@ -117,7 +117,18 @@ function removeNthFromEndPreform(head, n) {
   return preHead.next;
 }
 
+function getIntersectionNode(headA, headB) {
+  let pointerA = headA;
+  let pointerB = headB;
+  while (pointerA || pointerB) {
+    if (pointerA === pointerB) return pointerA;
+    pointerA = pointerA === null ? headB : pointerA.next;
+    pointerB = pointerB === null ? headA : pointerB.next;
+  }
+  return null;
+}
+
 export {
   ListNode, mergeTwoLists, list2array, hasCycle, array2list, reverseList,
-  getMiddle, removeNthFromEnd, removeNthFromEndPreform,
+  getMiddle, removeNthFromEnd, removeNthFromEndPreform, getIntersectionNode,
 };

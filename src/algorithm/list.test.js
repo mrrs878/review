@@ -2,13 +2,14 @@
  * @Date: 2021-06-05 23:24:02
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-06 21:44:14
+ * @LastEditTime: 2021-06-06 22:31:08
  * @FilePath: \review\src\algorithm\list.test.js
  */
 import {
   hasCycle, list2array, ListNode, mergeTwoLists, array2list, reverseList, getMiddle,
   removeNthFromEnd,
   removeNthFromEndPreform,
+  getIntersectionNode,
 } from './list';
 
 describe('list problems', () => {
@@ -134,5 +135,29 @@ describe('list problems', () => {
     const res3 = removeNthFromEndPreform(array2list(arr), arr.length);
     arr.splice(arr.length - arr.length, 1);
     expect(list2array(res3)).toEqual(arr);
+  });
+
+  test('getIntersectionNode case1', () => {
+    const node1 = new ListNode(1, null);
+    const node2 = new ListNode(2, null);
+    const node3 = new ListNode(3, null);
+    const node4 = new ListNode(4, null);
+    const node5 = new ListNode(5, null);
+    const node6 = new ListNode(6, null);
+    const node7 = new ListNode(7, null);
+    const node8 = new ListNode(8, null);
+    const node9 = new ListNode(9, null);
+
+    node1.next = node3;
+    node3.next = node2;
+    node2.next = node4;
+    node4.next = node7;
+
+    node5.next = node6;
+    node6.next = node7;
+    node7.next = node8;
+    node8.next = node9;
+
+    expect(getIntersectionNode(node1, node5)).toEqual(node7);
   });
 });

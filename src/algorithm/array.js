@@ -2,7 +2,7 @@
  * @Date: 2021-06-05 13:49:05
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-05 16:38:03
+ * @LastEditTime: 2021-06-06 23:03:58
  * @FilePath: \review\src\algorithm\array.js
  */
 const first = (arr) => arr[0];
@@ -60,4 +60,21 @@ function intersection(arr1, arr2) {
   return Array.from(res);
 }
 
-export { combineOrderedArrays, sumOfTwoNumbers, intersection };
+function triangleNumber(array) {
+  function isTriangle(a, b, c) {
+    return a + b > c && a + c > b && c + b > a;
+  }
+  let num = 0;
+  for (let i = 0; i < array.length; i += 1) {
+    for (let j = i + 1; j < array.length; j += 1) {
+      for (let k = j + 1; k < array.length; k += 1) {
+        num += isTriangle(array[i], array[j], array[k]) ? 1 : 0;
+      }
+    }
+  }
+  return num;
+}
+
+export {
+  combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber,
+};

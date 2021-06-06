@@ -2,10 +2,12 @@
  * @Date: 2021-06-05 14:24:41
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-05 15:37:16
+ * @LastEditTime: 2021-06-06 23:01:14
  * @FilePath: \review\src\algorithm\array.test.js
  */
-import { combineOrderedArrays, sumOfTwoNumbers, intersection } from './array';
+import {
+  combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber,
+} from './array';
 
 describe('array problems', () => {
   test('combineOrderedArrays', () => {
@@ -29,5 +31,10 @@ describe('array problems', () => {
     const arr3 = [4, 9, 5];
     const arr4 = [9, 4, 9, 8, 4];
     expect(intersection(arr3, arr4)).toEqual([9, 4]);
+  });
+
+  test('triangleNumber', () => {
+    const arr = [24, 3, 82, 22, 35, 84, 19];
+    expect(triangleNumber(arr)).toEqual(10);
   });
 });
