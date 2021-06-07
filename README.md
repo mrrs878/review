@@ -1,7 +1,7 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-06-04 13:10:07
+ * @LastEditTime: 2021-06-07 12:37:50
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
  * @FilePath: /review/README.md
@@ -21,7 +21,6 @@
 - [x] [前端模块化的十年征程](https://mp.weixin.qq.com/s/H5HgZzG46Sh-TFMthtlzew)
 - [x] [由浅入深，66条JavaScript面试知识点](https://juejin.cn/post/6844904200917221389)
 - [ ] [(建议收藏)原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.cn/post/6844903974378668039)
-- [ ] [字节跳动最爱考的前端面试题：JavaScript 基础](https://juejin.cn/post/6934500357091360781)
 - [x] [如何取消请求的发送](https://github.com/shfshanyue/Daily-Question/issues/502)
 - [x] [使用 axios 拦截器解决「 前端并发冲突 」 问题](https://mp.weixin.qq.com/s/ehNvVfey1zqG6L4WY0GHRQ)
 
@@ -63,6 +62,7 @@
 
 - [ ] [精读《算法基础数据结构》](https://mp.weixin.qq.com/s/mpSdGhU3idkpcZqs1b0aLA)
 - [ ] [66道前端算法面试题附思路分析助你查漏补缺](https://mp.weixin.qq.com/s/2W1ueq_Rp5z8Q9lFZ1AjYg)
+- [ ] [别再说你不懂Top K问题了](https://mp.weixin.qq.com/s/0_Rr6Pjshvd7Om2zTYMriQ)
 
  ## 前端架构&软实力
 
