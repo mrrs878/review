@@ -2,7 +2,7 @@
  * @Date: 2021-06-07 14:34:22
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-07 23:33:40
+ * @LastEditTime: 2021-06-08 00:02:53
  * @FilePath: \review\src\algorithm\stack.js
  */
 function MinStack() {
@@ -90,6 +90,20 @@ function removeNDuplicates(s, k) {
   return stack.join('');
 }
 
+function removeNDuplicatesPerform(s, k) {
+  const stack = [];
+  for (let i = 0; i < s.length; i += 1) {
+    const prev = stack.pop();
+    if (!prev || prev[0] !== s[i]) {
+      stack.push(prev);
+      stack.push(s[i]);
+    } else if (prev.length < k - 1) {
+      stack.push(prev + s[i]);
+    }
+  }
+  return stack.join('');
+}
+
 export {
-  MinStack, isValid, removeDuplicates, removeNDuplicates,
+  MinStack, isValid, removeDuplicates, removeNDuplicates, removeNDuplicatesPerform,
 };

@@ -2,11 +2,11 @@
  * @Date: 2021-06-07 14:34:58
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-07 23:02:55
+ * @LastEditTime: 2021-06-08 00:03:04
  * @FilePath: \review\src\algorithm\stack.test.js
  */
 import {
-  isValid, MinStack, removeDuplicates, removeNDuplicates,
+  isValid, MinStack, removeDuplicates, removeNDuplicates, removeNDuplicatesPerform,
 } from './stack';
 
 describe('stack problems', () => {
@@ -56,10 +56,14 @@ describe('stack problems', () => {
     expect(removeDuplicates('abbcca')).toEqual('');
     expect(removeDuplicates('abbcbca')).toEqual('acbca');
   });
-  test('removeNDuplicates', () => {
+  test('removeNDuplicates case1', () => {
     expect(removeNDuplicates('abbbca', 3)).toEqual('aca');
     expect(removeNDuplicates('deeedbbcccbdaa', 3)).toEqual('aa');
     expect(removeNDuplicates('pbbcggttciiippooaais', 2)).toEqual('ps');
     expect(removeNDuplicates('dtpdtaaaaaaaaappppppppppppppppppppaaaaaaaaaaxxxxxxxxxxxxxxsssssssssjjjjjjjjjjjjjjjjjjjjxxxxxxxxxxxxxxxxxxxxsssssssjjjjjjjjjjjjjjjjjjjjssssxxxxxxatdwvvpctpggggggggggggggggggggajagglaaaaaaaaaaaaaaaaaaaa', 20)).toEqual('dtpdttdwvvpctpajaggl');
+  });
+  test('removeNDuplicates case2', () => {
+    expect(removeNDuplicatesPerform('deeedbbcccbdaa', 3)).toEqual('aa');
+    expect(removeNDuplicatesPerform('dtpdtaaaaaaaaappppppppppppppppppppaaaaaaaaaaxxxxxxxxxxxxxxsssssssssjjjjjjjjjjjjjjjjjjjjxxxxxxxxxxxxxxxxxxxxsssssssjjjjjjjjjjjjjjjjjjjjssssxxxxxxatdwvvpctpggggggggggggggggggggajagglaaaaaaaaaaaaaaaaaaaa', 20)).toEqual('dtpdttdwvvpctpajaggl');
   });
 });
