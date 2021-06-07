@@ -2,8 +2,8 @@
  * @Date: 2021-06-07 14:34:22
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-07 17:58:40
- * @FilePath: /review/src/algorithm/stack.js
+ * @LastEditTime: 2021-06-07 23:33:40
+ * @FilePath: \review\src\algorithm\stack.js
  */
 function MinStack() {
   this.storage = [];
@@ -49,4 +49,47 @@ function isValid(str) {
   return stack.length === 0;
 }
 
-export { MinStack, isValid };
+function removeDuplicates(str) {
+  if (str === '') return '';
+  if (str.length === 1) return str;
+  const stack = [str[0]];
+  for (let i = 1; i < str.length; i += 1) {
+    const prev = stack.pop();
+    if (prev !== str[i]) {
+      stack.push(prev);
+      stack.push(str[i]);
+    }
+  }
+
+  return stack.join('');
+}
+
+function removeNDuplicates(s, k) {
+  function popN(stack, n) {
+    let i = n;
+    while (i > 0) {
+      stack.pop();
+      i -= 1;
+    }
+  }
+  const stack = [];
+  let n = 0;
+  for (let i = 0; i < s.length; i += 1) {
+    if (stack[stack.length - 1] === s[i]) {
+      n += 1;
+    } else {
+      n = 0;
+    }
+    stack.push(s[i]);
+    if (n === k - 1) {
+      popN(stack, k);
+      return removeNDuplicates(stack.join('') + s.slice(i + 1), k);
+    }
+  }
+
+  return stack.join('');
+}
+
+export {
+  MinStack, isValid, removeDuplicates, removeNDuplicates,
+};
