@@ -1,7 +1,7 @@
 <!--
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 21:56:06
- * @LastEditTime: 2021-06-07 12:37:50
+ * @LastEditTime: 2021-06-08 10:49:14
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
  * @FilePath: /review/README.md
@@ -34,7 +34,6 @@
 
 - [x] [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
 - [x] [HTTPS加解密](https://www.jianshu.com/p/e30a8c4fa329)
-- [ ] [What Is OSI Model?](https://www.networkingsphere.com/2019/07/what-is-osi-model.html)
 - [x] [一文走进 HTTP 与 TCP 协议，它们的区别与联系](https://mp.weixin.qq.com/s/c1DPbn56c4Tcj9EtRDdrmA)
 - [x] [了解 HTTP/1.x 的 keep-alive 吗？它与 HTTP/2 多路复用的区别是什么？](https://mp.weixin.qq.com/s/194SJUQz-mZBtg-kLd9fhA)
 - [x] [彻底搞懂HTTP知识的面试题（1.8万字）](https://mp.weixin.qq.com/s/dESEl1qYKPMYqNVOWYfUDA)
@@ -48,7 +47,7 @@
 
 - [ ] [React全部api解读](https://juejin.cn/post/6950063294270930980)
 - [x] [React技术揭秘](https://react.iamkasong.com/)
-- [ ] [「react进阶」一文吃透react事件系统原理](https://juejin.cn/post/6955636911214067720)
+- [x] [「react进阶」一文吃透react事件系统原理](https://juejin.cn/post/6955636911214067720)
 - [x] [深入理解React：懒加载（lazy）实现原理](https://www.cnblogs.com/forcheng/p/13132582.html)
 
 ## webpack
@@ -74,4 +73,5 @@
 - [x] [状态管理新思路：有限状态机在前端的应用](https://zhuanlan.zhihu.com/p/364347035)
 - [x] [一文搞懂单点登录三种情况的实现方式](https://mp.weixin.qq.com/s/vKjOD2xRZmF5EL-p9ppjbA)
 - [ ] [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html) 
+- [x] [从 Bundleless 看前端构建](https://zhuanlan.zhihu.com/p/349406330)
 

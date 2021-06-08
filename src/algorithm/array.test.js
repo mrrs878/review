@@ -2,11 +2,13 @@
  * @Date: 2021-06-05 14:24:41
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-06 23:01:14
- * @FilePath: \review\src\algorithm\array.test.js
+ * @LastEditTime: 2021-06-08 15:43:35
+ * @FilePath: /review/src/algorithm/array.test.js
  */
 import {
-  combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber,
+  combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber, minDistance,
+  longestCommonPrefix,
+  longestCommonPrefixPerform,
 } from './array';
 
 describe('array problems', () => {
@@ -36,5 +38,29 @@ describe('array problems', () => {
   test('triangleNumber', () => {
     const arr = [24, 3, 82, 22, 35, 84, 19];
     expect(triangleNumber(arr)).toEqual(10);
+  });
+
+  test('minDistance', () => {
+    expect(minDistance('a', 'b')).toEqual(2);
+    expect(minDistance('park', 'spake')).toEqual(5);
+    expect(minDistance('bsea', 'eat')).toEqual(3);
+    expect(minDistance('sea', 'eat')).toEqual(2);
+    expect(minDistance('leetcode', 'etco')).toEqual(4);
+    expect(minDistance('leet', 'etcoeeftgh')).toEqual(10);
+  });
+
+  test('longestCommonPrefix', () => {
+    expect(longestCommonPrefix(['f', 'f331', 'f44'])).toEqual('f');
+    expect(longestCommonPrefix(['flower', 'flow', 'flight'])).toEqual('fl');
+    expect(longestCommonPrefix(['dog', 'racecar', 'car'])).toEqual('');
+    expect(longestCommonPrefix(['d', 'd', 'dd'])).toEqual('d');
+  });
+  test('longestCommonPrefixPerform', () => {
+    expect(longestCommonPrefixPerform(['f', 'f331', 'f44'])).toEqual('f');
+    expect(longestCommonPrefixPerform(['flower', 'flow', 'flight'])).toEqual('fl');
+    expect(longestCommonPrefixPerform(['dog', 'racecar', 'car'])).toEqual('');
+    expect(longestCommonPrefixPerform(['d', 'd', 'dd'])).toEqual('d');
+    expect(longestCommonPrefixPerform(['dddd', 'dd', 'ddd'])).toEqual('dd');
+    expect(longestCommonPrefixPerform(['abab', 'aba', 'abc'])).toEqual('ab');
   });
 });

@@ -2,8 +2,8 @@
  * @Date: 2021-06-07 14:34:22
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-08 00:02:53
- * @FilePath: \review\src\algorithm\stack.js
+ * @LastEditTime: 2021-06-08 14:18:31
+ * @FilePath: /review/src/algorithm/stack.js
  */
 function MinStack() {
   this.storage = [];
@@ -90,20 +90,45 @@ function removeNDuplicates(s, k) {
   return stack.join('');
 }
 
-function removeNDuplicatesPerform(s, k) {
+function remove2Duplicates(s) {
   const stack = [];
   for (let i = 0; i < s.length; i += 1) {
-    const prev = stack.pop();
-    if (!prev || prev[0] !== s[i]) {
-      stack.push(prev);
+    const pre = stack.pop();
+    if (!pre || pre[0] !== s[i]) {
+      stack.push(pre);
       stack.push(s[i]);
-    } else if (prev.length < k - 1) {
-      stack.push(prev + s[i]);
+    } else if (pre.length < 1) {
+      stack.push(pre + s[i]);
     }
   }
+
   return stack.join('');
 }
 
+function removeNDuplicatesPerform(s, k) {
+  const stack = [];
+  for (let i = 0; i < s.length; i += 1) {
+    const pre = stack.pop();
+    if (!pre || pre[0] !== s[i]) {
+      stack.push(pre);
+      stack.push(s[i]);
+    } else if (pre.length < k - 1) {
+      stack.push(pre + s[i]);
+    }
+  }
+
+  return stack.join('');
+}
+
+function reverseWords(s) {
+  if (s === '') return '';
+  const str = s.trim();
+  if (!/ /.test(str)) return str;
+  const tmp = str.split(' ').filter((item) => item !== '').reverse();
+  return tmp.join(' ');
+}
+
 export {
-  MinStack, isValid, removeDuplicates, removeNDuplicates, removeNDuplicatesPerform,
+  MinStack, isValid, removeDuplicates, removeNDuplicates, remove2Duplicates,
+  removeNDuplicatesPerform, reverseWords,
 };

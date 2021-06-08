@@ -2,8 +2,8 @@
  * @Date: 2021-06-05 13:49:05
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-06 23:03:58
- * @FilePath: \review\src\algorithm\array.js
+ * @LastEditTime: 2021-06-08 15:40:11
+ * @FilePath: /review/src/algorithm/array.js
  */
 const first = (arr) => arr[0];
 const last = (arr) => arr[arr.length - 1];
@@ -75,6 +75,74 @@ function triangleNumber(array) {
   return num;
 }
 
+function minDistance(word1, word2) {
+  if (word1 === '' && word2 === '') return 0;
+
+  let small = '';
+  let bigger = '';
+  if (word1.length >= word2.length) {
+    small = word2;
+    bigger = word1;
+  } else {
+    small = word1;
+    bigger = word2;
+  }
+  let indexStart = -1;
+  let indexEnd = -1;
+
+  for (let i = small.length; i >= 0; i -= 1) {
+    for (let j = 0; j + i <= small.length; j += 1) {
+      const reg = new RegExp(small.slice(j, i));
+      if (reg.test(bigger)) {
+        indexStart = j;
+        indexEnd = i - 1;
+        break;
+      }
+    }
+    if (indexStart !== -1) break;
+  }
+  const length = (indexEnd - indexStart + 1);
+  return word1.length - length + word2.length - length;
+}
+
+function longestCommonPrefix(arr) {
+  if (!Array.isArray(arr)) return '';
+  if (arr.length === 1) return arr[0];
+  const arrTmp = arr.sort((a, b) => a.length - b.length);
+  const small = arrTmp[arrTmp.length - 1];
+  let end = small.length;
+  for (let i = arrTmp.length - 2; i >= 0; i -= 1) {
+    for (let j = 0; j < end; j += 1) {
+      if (arrTmp[i][j] !== small[j]) {
+        end = j;
+        break;
+      }
+    }
+  }
+  return small.slice(0, end);
+}
+
+function longestCommonPrefixPerform(arr) {
+  if (!Array.isArray(arr)) return '';
+  if (arr.length === 1) return arr[0];
+  let shortest = arr[0];
+  let longest = arr[0];
+  for (let i = 0; i < arr.length; i += 1) {
+    if (shortest > arr[i]) shortest = arr[i];
+    if (longest < arr[i]) longest = arr[i];
+  }
+  let end = -1;
+  for (let i = 0; i < shortest.length; i += 1) {
+    if (longest[i] !== shortest[i]) {
+      end = i;
+      break;
+    }
+    if (i === shortest.length - 1) end = shortest.length;
+  }
+  return end === -1 ? '' : shortest.slice(0, end);
+}
+
 export {
-  combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber,
+  combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber, minDistance,
+  longestCommonPrefix, longestCommonPrefixPerform,
 };
