@@ -1,10 +1,10 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-02-23 11:22:06
- * @LastEditTime: 2021-05-27 14:59:43
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-06-12 18:17:50
+ * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
- * @FilePath: /dashboard_template/.eslintrc.js
+ * @FilePath: \review\.eslintrc.js
  */
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks'],
@@ -21,6 +21,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'func-names': 0,
     'no-underscore-dangle': ['error', { allow: ['_denounce', '_throttle'] }],
+    'import/prefer-default-export': 0,
   },
   env: {
     'jest/globals': true,

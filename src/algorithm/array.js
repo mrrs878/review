@@ -2,8 +2,8 @@
  * @Date: 2021-06-05 13:49:05
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-08 15:40:11
- * @FilePath: /review/src/algorithm/array.js
+ * @LastEditTime: 2021-06-12 18:13:32
+ * @FilePath: \review\src\algorithm\array.js
  */
 const first = (arr) => arr[0];
 const last = (arr) => arr[arr.length - 1];
@@ -142,7 +142,44 @@ function longestCommonPrefixPerform(arr) {
   return end === -1 ? '' : shortest.slice(0, end);
 }
 
+function minArray(numbers) {
+  if (numbers.length === 1) return numbers[0];
+  let pre = numbers[0];
+  for (let i = 1; i < numbers.length; i += 1) {
+    if (pre > numbers[i]) return numbers[i];
+    pre = numbers[i];
+  }
+  return numbers[0];
+}
+
+function fib(n) {
+  if (n === 0) return 0;
+  if (n === 1) return 1;
+  if (n === 2) return 1;
+  return fib(n - 1) + fib(n - 2);
+}
+
+function fibPerform(num) {
+  function fibImpl(m, n, x) {
+    if (x === 0) return m;
+    return fibImpl(n, m + n, x - 1);
+  }
+
+  return fibImpl(0, 1, num);
+}
+
+function exchange(numbers) {
+  if (numbers.length <= 1) return numbers;
+  const tmp = [];
+  for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 === 1) tmp.unshift(numbers[i]);
+    else tmp.push(numbers[i]);
+  }
+
+  return tmp;
+}
+
 export {
   combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber, minDistance,
-  longestCommonPrefix, longestCommonPrefixPerform,
+  longestCommonPrefix, longestCommonPrefixPerform, minArray, fib, fibPerform, exchange,
 };
