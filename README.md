@@ -9,6 +9,7 @@
 # 2021复习计划
 
 [![Node.js CI](https://github.com/mrrs878/review/actions/workflows/node.js.yml/badge.svg)](https://github.com/mrrs878/review/actions/workflows/node.js.yml)
+[![Coverage Status](https://coveralls.io/repos/github/mrrs878/review/badge.svg?branch=main)](https://coveralls.io/github/mrrs878/review?branch=main)
 
 ## JavaScript
 
