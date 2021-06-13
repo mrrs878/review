@@ -2,13 +2,11 @@
  * @Date: 2021-06-05 14:24:41
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-12 18:14:59
+ * @LastEditTime: 2021-06-13 22:46:23
  * @FilePath: \review\src\algorithm\array.test.js
  */
 import {
   combineOrderedArrays, sumOfTwoNumbers, intersection, triangleNumber, minDistance,
-  longestCommonPrefix,
-  longestCommonPrefixPerform,
   minArray,
   fib,
   fibPerform,
@@ -51,21 +49,6 @@ describe('array problems', () => {
     expect(minDistance('sea', 'eat')).toEqual(2);
     expect(minDistance('leetcode', 'etco')).toEqual(4);
     expect(minDistance('leet', 'etcoeeftgh')).toEqual(10);
-  });
-
-  test('longestCommonPrefix', () => {
-    expect(longestCommonPrefix(['f', 'f331', 'f44'])).toEqual('f');
-    expect(longestCommonPrefix(['flower', 'flow', 'flight'])).toEqual('fl');
-    expect(longestCommonPrefix(['dog', 'racecar', 'car'])).toEqual('');
-    expect(longestCommonPrefix(['d', 'd', 'dd'])).toEqual('d');
-  });
-  test('longestCommonPrefixPerform', () => {
-    expect(longestCommonPrefixPerform(['f', 'f331', 'f44'])).toEqual('f');
-    expect(longestCommonPrefixPerform(['flower', 'flow', 'flight'])).toEqual('fl');
-    expect(longestCommonPrefixPerform(['dog', 'racecar', 'car'])).toEqual('');
-    expect(longestCommonPrefixPerform(['d', 'd', 'dd'])).toEqual('d');
-    expect(longestCommonPrefixPerform(['dddd', 'dd', 'ddd'])).toEqual('dd');
-    expect(longestCommonPrefixPerform(['abab', 'aba', 'abc'])).toEqual('ab');
   });
 
   test('minArray', () => {
