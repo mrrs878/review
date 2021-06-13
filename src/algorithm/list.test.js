@@ -2,7 +2,7 @@
  * @Date: 2021-06-05 23:24:02
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-06 22:31:08
+ * @LastEditTime: 2021-06-13 16:51:24
  * @FilePath: \review\src\algorithm\list.test.js
  */
 import {
@@ -10,6 +10,7 @@ import {
   removeNthFromEnd,
   removeNthFromEndPreform,
   getIntersectionNode,
+  getKthFromEnd,
 } from './list';
 
 describe('list problems', () => {
@@ -159,5 +160,12 @@ describe('list problems', () => {
     node8.next = node9;
 
     expect(getIntersectionNode(node1, node5)).toEqual(node7);
+  });
+
+  test('getKthFromEnd case1', () => {
+    const list = array2list([1, 2, 3, 4]);
+    expect(getKthFromEnd(list, 2)).toEqual(3);
+    expect(getKthFromEnd(list, 1)).toEqual(4);
+    expect(getKthFromEnd(list, 4)).toEqual(1);
   });
 });

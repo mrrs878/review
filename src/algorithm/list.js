@@ -2,7 +2,7 @@
  * @Date: 2021-06-05 23:16:17
  * @Author: mrrs878@foxmail.com
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2021-06-06 22:34:11
+ * @LastEditTime: 2021-06-13 15:56:33
  * @FilePath: \review\src\algorithm\list.js
  */
 class ListNode {
@@ -128,7 +128,13 @@ function getIntersectionNode(headA, headB) {
   return null;
 }
 
+function getKthFromEnd(head, k) {
+  const tmp = list2array(head);
+  return tmp[tmp.length - k];
+}
+
 export {
   ListNode, mergeTwoLists, list2array, hasCycle, array2list, reverseList,
   getMiddle, removeNthFromEnd, removeNthFromEndPreform, getIntersectionNode,
+  getKthFromEnd,
 };
