@@ -1,7 +1,7 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-11 19:01:35
- * @LastEditTime: 2021-05-31 16:01:21
+ * @LastEditTime: 2021-06-15 14:38:17
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
  * @FilePath: /review/src/js/extend.js
@@ -17,6 +17,7 @@ CombinationSuperType.prototype.getFriends = function () {
   return this.friends;
 };
 function CombinationSubType(name, friends) {
+  this.name = name;
   CombinationSuperType.call(this, friends);
 }
 CombinationSubType.prototype = new CombinationSuperType();
