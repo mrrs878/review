@@ -1,10 +1,10 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-05-15 10:35:31
- * @LastEditTime: 2021-05-15 11:50:20
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-06-21 17:49:37
+ * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
- * @FilePath: \review\src\js\debounce.test.js
+ * @FilePath: /review/src/js/debounce.test.js
  */
 import { debounce, throttle } from './debounce';
 
@@ -34,9 +34,9 @@ describe('denounce、throttle', () => {
   }
 
   test('debounce', async () => {
-    await asyncFn(3, 100, printTimeDebounced);
-    await asyncFn(5, 1200, printTimeDebounced);
-    expect(printTime.mock.calls.length).toBeLessThan(8);
+    await asyncFn(1, 100, printTimeDebounced);
+    await asyncFn(3, 800, printTimeDebounced);
+    expect(printTime.mock.calls.length).toBeLessThan(4);
     return Promise.resolve();
   }, 10000);
 
@@ -44,8 +44,8 @@ describe('denounce、throttle', () => {
     setTimeout(() => {
       printTimeDebounced.cancel();
     }, 3000);
-    await asyncFn(10, 600, printTimeDebounced);
-    expect(printTime.mock.calls.length).toBeLessThan(10);
+    await asyncFn(5, 600, printTimeDebounced);
+    expect(printTime.mock.calls.length).toBeLessThan(5);
     return Promise.resolve();
   }, 10000);
 
