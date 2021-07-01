@@ -1,14 +1,15 @@
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2021-02-23 11:22:06
- * @LastEditTime: 2021-06-12 18:17:50
+ * @LastEditTime: 2021-07-01 10:01:07
  * @LastEditors: mrrs878@foxmail.com
  * @Description: In User Settings Edit
- * @FilePath: \review\.eslintrc.js
+ * @FilePath: /review/.eslintrc.js
  */
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks'],
   plugins: ['jest'],
+  ignorePatterns: ['**/build/*'],
   parserOptions: {
     parser: 'babel-eslint',
     sourceType: 'module',
