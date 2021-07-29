@@ -77,3 +77,4 @@
 - [ ] [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html) 
 - [x] [从 Bundleless 看前端构建](https://zhuanlan.zhihu.com/p/349406330)
 - [x] [写给中高级前端关于性能优化的9大策略和6大指标 | 网易四年实践](https://juejin.cn/post/6981673766178783262)
+- [ ] [手写一个虚拟DOM库，彻底让你理解diff算法](https://juejin.cn/post/6984939221681176607)
