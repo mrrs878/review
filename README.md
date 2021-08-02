@@ -30,6 +30,7 @@
 - [x] [如何用一行 CSS 实现 10 种现代布局？](https://mp.weixin.qq.com/s/zb6FW6sbAin2MYGeXjNPwQ)
 - [x] [BFC是什么？BFC有什么用？看完全明白](https://www.cnblogs.com/qs-cnblogs/p/12349887.html) 
 - [x] [你不知道的 flex-shrink 计算规则](https://www.cnblogs.com/liyan-web/p/11217330.html)
+- [ ] [十几个CSS高级常见技巧汇总（虚线框、三角形、优惠券卡券、滚动条、多行溢出...）](https://mp.weixin.qq.com/s/t3kI8LM3L1blFaTmVqhr1A)
 
 ## 网络
 
