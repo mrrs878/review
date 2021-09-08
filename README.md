@@ -6,7 +6,9 @@
  * @Description: In User Settings Edit
  * @FilePath: /review/README.md
 -->
-# 2021复习计划
+~~# 2021复习计划~~
+
+# 技术文章收集
 
 [![Node.js CI](https://github.com/mrrs878/review/actions/workflows/node.js.yml/badge.svg)](https://github.com/mrrs878/review/actions/workflows/node.js.yml)
 [![Coverage Status](https://coveralls.io/repos/github/mrrs878/review/badge.svg?branch=main)](https://coveralls.io/github/mrrs878/review?branch=main)
@@ -53,6 +55,7 @@
 - [x] [深入理解React：懒加载（lazy）实现原理](https://www.cnblogs.com/forcheng/p/13132582.html)
 - [x] [函数式组件与类组件有何不同？](https://overreacted.io/zh-hans/how-are-function-components-different-from-classes/)
 - [ ] [从 React-Router 出发，如何设计更优雅的路由？](https://juejin.cn/post/6989764387275800607)
+- [x] [React Hook 最佳实践](https://react.docschina.org/blog/2020/05/22/react-hooks.html) 
 
 ## webpack
 
