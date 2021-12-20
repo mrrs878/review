@@ -16,7 +16,7 @@
 ## JavaScript
 
 - [x] [JS执行机制 - 上下文与作用域（总结笔记）](https://zhuanlan.zhihu.com/p/151033665) 
-- [x] [JS | 执行调度过程](https://hondrytravis.github.io/docs/typescript/javascript_workflow) 
+- [x] [JS-执行调度过程](https://hondrytravis.github.io/docs/typescript/javascript_workflow) 
 - [x] [判断元素可见](https://mp.weixin.qq.com/s/4ZvBfOiN1o1aXuxoTQpqYQ)
 - [x] [手写题](https://mp.weixin.qq.com/s/YhPAOl1blr03XyiNpKTcKw)
 - [ ] [JavaScript大文件下载](https://juejin.cn/post/6954868879034155022)
@@ -65,13 +65,13 @@
 - [x] [[万字总结] 一文吃透 Webpack 核心原理](https://xie.infoq.cn/article/ddca4caa394241447fa0aa3c0)
 - [x] [webpack开发、使用及优化总结](https://slbyml.github.io/QA/webpack.html)
 
- ## 算法/数据结构
+ ## 算法-数据结构
 
 - [ ] [精读《算法基础数据结构》](https://mp.weixin.qq.com/s/mpSdGhU3idkpcZqs1b0aLA)
 - [ ] [66道前端算法面试题附思路分析助你查漏补缺](https://mp.weixin.qq.com/s/2W1ueq_Rp5z8Q9lFZ1AjYg)
 - [ ] [别再说你不懂Top K问题了](https://mp.weixin.qq.com/s/0_Rr6Pjshvd7Om2zTYMriQ)
 
- ## 前端架构&软实力
+ ## 前端架构-软实力
 
 - [x] [保姆级 Git 入门教程，10000 字详解](https://mp.weixin.qq.com/s/B8IKLdRX7g5Euu4oIIrXjg)
 - [x] [10个你可能没用过，但很强大的Web API](https://mp.weixin.qq.com/s/_Hufto3frIqk9m9I4Ty4Hg)
@@ -82,7 +82,7 @@
 - [x] [一文搞懂单点登录三种情况的实现方式](https://mp.weixin.qq.com/s/vKjOD2xRZmF5EL-p9ppjbA)
 - [ ] [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html) 
 - [x] [从 Bundleless 看前端构建](https://zhuanlan.zhihu.com/p/349406330)
-- [x] [写给中高级前端关于性能优化的9大策略和6大指标 | 网易四年实践](https://juejin.cn/post/6981673766178783262)
+- [x] [写给中高级前端关于性能优化的9大策略和6大指标-网易四年实践](https://juejin.cn/post/6981673766178783262)
 - [ ] [手写一个虚拟DOM库，彻底让你理解diff算法](https://juejin.cn/post/6984939221681176607)
 - [ ] [「万字进阶」深入浅出 Commonjs 和 Es Module](https://juejin.cn/post/6994224541312483336)
 - [x] [SVG学习之stroke-dasharray 和 stroke-dashoffset 详解](https://www.cnblogs.com/daisygogogo/p/11044353.html)
