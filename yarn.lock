@@ -1676,7 +1676,7 @@
 
 "@testing-library/react-hooks@^7.0.2":
   version "7.0.2"
-  resolved "https://npm.iyunquna.com/@testing-library%2freact-hooks/-/react-hooks-7.0.2.tgz#3388d07f562d91e7f2431a4a21b5186062ecfee0"
+  resolved "https://registry.yarnpkg.com/@testing-library%2freact-hooks/-/react-hooks-7.0.2.tgz#3388d07f562d91e7f2431a4a21b5186062ecfee0"
   integrity sha1-M4jQf1YtkefyQxpKIbUYYGLs/uA=
   dependencies:
     "@babel/runtime" "^7.12.5"
@@ -1845,7 +1845,7 @@
 
 "@types/prop-types@*":
   version "15.7.4"
-  resolved "https://npm.iyunquna.com/@types%2fprop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
+  resolved "https://registry.yarnpkg.com/@types%2fprop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha1-/PcgXCXf95Xuea8eMNosl5CAjxE=
 
 "@types/q@^1.5.1":
@@ -1855,21 +1855,21 @@
 
 "@types/react-dom@>=16.9.0":
   version "17.0.11"
-  resolved "https://npm.iyunquna.com/@types%2freact-dom/-/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
+  resolved "https://registry.yarnpkg.com/@types%2freact-dom/-/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
   integrity sha1-4ercPF6GvbX3aE4AJ0riKOe8xGY=
   dependencies:
     "@types/react" "*"
 
 "@types/react-test-renderer@>=16.9.0":
   version "17.0.1"
-  resolved "https://npm.iyunquna.com/@types%2freact-test-renderer/-/react-test-renderer-17.0.1.tgz#3120f7d1c157fba9df0118dae20cb0297ee0e06b"
+  resolved "https://registry.yarnpkg.com/@types%2freact-test-renderer/-/react-test-renderer-17.0.1.tgz#3120f7d1c157fba9df0118dae20cb0297ee0e06b"
   integrity sha1-MSD30cFX+6nfARja4gywKX7g4Gs=
   dependencies:
     "@types/react" "*"
 
 "@types/react@*", "@types/react@>=16.9.0":
   version "17.0.37"
-  resolved "https://npm.iyunquna.com/@types%2freact/-/react-17.0.37.tgz#6884d0aa402605935c397ae689deed115caad959"
+  resolved "https://registry.yarnpkg.com/@types%2freact/-/react-17.0.37.tgz#6884d0aa402605935c397ae689deed115caad959"
   integrity sha512-2FS1oTqBGcH/s0E+CjrCCR9+JMpsu9b69RTFO+40ua43ZqP5MmQ4iUde/dMjWR909KxZwmOQIFq6AV6NjEG5xg==
   dependencies:
     "@types/prop-types" "*"
@@ -1885,7 +1885,7 @@
 
 "@types/scheduler@*":
   version "0.16.2"
-  resolved "https://npm.iyunquna.com/@types%2fscheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  resolved "https://registry.yarnpkg.com/@types%2fscheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=
 
 "@types/source-list-map@*":
@@ -3956,7 +3956,7 @@ cssstyle@^2.3.0:
 
 csstype@^3.0.2:
   version "3.0.10"
-  resolved "https://npm.iyunquna.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
   integrity sha1-KtOnvtcPNbllcHwJLl8wsyfCkOU=
 
 cyclist@^1.0.1:
@@ -9178,7 +9178,7 @@ react-dom@^17.0.2:
 
 react-error-boundary@^3.1.0:
   version "3.1.4"
-  resolved "https://npm.iyunquna.com/react-error-boundary/-/react-error-boundary-3.1.4.tgz#255db92b23197108757a888b01e5b729919abde0"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.1.4.tgz#255db92b23197108757a888b01e5b729919abde0"
   integrity sha1-JV25KyMZcQh1eoiLAeW3KZGaveA=
   dependencies:
     "@babel/runtime" "^7.12.5"
