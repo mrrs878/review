@@ -34,6 +34,10 @@
 - [x] [你不知道的 flex-shrink 计算规则](https://www.cnblogs.com/liyan-web/p/11217330.html)
 - [ ] [十几个CSS高级常见技巧汇总（虚线框、三角形、优惠券卡券、滚动条、多行溢出...）](https://mp.weixin.qq.com/s/t3kI8LM3L1blFaTmVqhr1A)
 
+## HTML
+
+- [x] [Web Worker 文献综述](http://www.alloyteam.com/2020/07/14680/)
+
 ## 网络
 
 - [x] [WebSocket：5分钟从入门到精通](https://juejin.cn/post/6844903544978407431)
