@@ -28,7 +28,7 @@
     "xstate": "^4.19.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start:webworkers": "REACT_APP_BUILD_TARGET=webworkers react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts --expose-gc test",
     "eject": "react-scripts eject",
