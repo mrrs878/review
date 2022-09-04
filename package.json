@@ -30,7 +30,7 @@
   "scripts": {
     "start:webworkers": "REACT_APP_BUILD_TARGET=webworkers react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts --expose-gc test",
+    "test": "react-scripts --expose-gc test --silent",
     "eject": "react-scripts eject",
     "lint": "eslint src"
   },
