@@ -1,9 +1,10 @@
+/* eslint-disable class-methods-use-this */
 /* eslint-disable max-classes-per-file */
 /*
  * @Author: mrrs878@foxmail.com
  * @Date: 2022-09-02 19:08:44
  * @LastEditors: mrrs878@foxmail.com
- * @LastEditTime: 2022-09-02 19:46:05
+ * @LastEditTime: 2022-09-04 10:45:06
  * @Description:
  *
  *  命令模式
@@ -16,11 +17,16 @@
 const db = {};
 
 class Command {
-  constructor(execute, undo, serialize, value) {
-    this.execute = execute;
-    this.undo = undo;
-    this.serialize = serialize;
-    this.value = value;
+  execute() {
+    throw new Error('子类应该实现execute方法');
+  }
+
+  undo() {
+    throw new Error('子类应该实现undo方法');
+  }
+
+  serialize() {
+    throw new Error('子类应该实现serialize方法');
   }
 }
 
@@ -57,26 +63,26 @@ class CommandManager {
 
 class UpdateCommand extends Command {
   constructor(key, value) {
-    super(UpdateCommand.execute, UpdateCommand.undo, UpdateCommand.serialize, UpdateCommand.value);
+    super();
     this.key = key;
     this.value = value;
     this.oldValue = null;
   }
 
-  static execute() {
+  execute() {
     if (db[this.key]) {
       this.oldValue = db[this.key];
       db[this.key] = this.value;
     }
   }
 
-  static undo() {
+  undo() {
     if (this.oldValue) {
       db[this.key] = this.oldValue;
     }
   }
 
-  static serialize() {
+  serialize() {
     return JSON.stringify({
       type: 'Command',
       action: 'update',
@@ -87,23 +93,23 @@ class UpdateCommand extends Command {
 
 class CreateCommand extends Command {
   constructor(key, value) {
-    super(CreateCommand.execute, CreateCommand.undo, CreateCommand.serialize, value);
+    super();
     this.key = key;
     this.value = value;
   }
 
-  static execute() {
+  execute() {
     if (db[this.key]) {
       return;
     }
     db[this.key] = this.value;
   }
 
-  static undo() {
+  undo() {
     delete db[this.key];
   }
 
-  static serialize() {
+  serialize() {
     return JSON.stringify({
       type: 'Command',
       action: 'create',
@@ -114,23 +120,23 @@ class CreateCommand extends Command {
 
 class DeleteCommand extends Command {
   constructor(key) {
-    super(DeleteCommand.execute, DeleteCommand.undo, DeleteCommand.serialize);
+    super();
     this.key = key;
     this.oldValue = null;
   }
 
-  static execute() {
+  execute() {
     if (db[this.key]) {
       this.oldValue = db[this.key];
       delete db[this.key];
     }
   }
 
-  static undo() {
+  undo() {
     db[this.key] = this.oldValue;
   }
 
-  static serialize() {
+  serialize() {
     return JSON.stringify({
       type: 'Command',
       action: 'delete',
