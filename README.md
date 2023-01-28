@@ -70,13 +70,13 @@
 - [x] [[万字总结] 一文吃透 Webpack 核心原理](https://xie.infoq.cn/article/ddca4caa394241447fa0aa3c0)
 - [x] [webpack开发、使用及优化总结](https://slbyml.github.io/QA/webpack.html)
 
- ## 算法-数据结构
+## 算法-数据结构
 
 - [ ] [精读《算法基础数据结构》](https://mp.weixin.qq.com/s/mpSdGhU3idkpcZqs1b0aLA)
 - [ ] [66道前端算法面试题附思路分析助你查漏补缺](https://mp.weixin.qq.com/s/2W1ueq_Rp5z8Q9lFZ1AjYg)
 - [ ] [别再说你不懂Top K问题了](https://mp.weixin.qq.com/s/0_Rr6Pjshvd7Om2zTYMriQ)
 
- ## 前端架构-软实力
+## 前端架构-软实力
 
 - [x] [保姆级 Git 入门教程，10000 字详解](https://mp.weixin.qq.com/s/B8IKLdRX7g5Euu4oIIrXjg)
 - [x] [10个你可能没用过，但很强大的Web API](https://mp.weixin.qq.com/s/_Hufto3frIqk9m9I4Ty4Hg)
