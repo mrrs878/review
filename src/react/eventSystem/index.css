@@ -5,7 +5,12 @@ body {
 }
 
 .app {
+  background-color: aqua;
+}
+
+.child {
   height: 100vh;
+  background-color: bisque;
 }
 
 .modal-c {
